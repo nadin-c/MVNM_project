@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . bookmydr-0.0.1-SNAPSHOT.jar
 
 # Expose port 8080 for application
-EXPOSE 8080
+EXPOSE 80
 
 # Command to run the application
 CMD ["java", "-jar", "bookmydr-0.0.1-SNAPSHOT.jar"]
